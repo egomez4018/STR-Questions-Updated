@@ -110,8 +110,52 @@ let questions = [
         correctAnswer: "Sample B",
         explanation: "Sample B shows early phoneme-grapheme correspondence, demonstrating the initial stages of alphabetic principle understanding."
     },
-    
+    {
+        question: "When planning assessments to measure students' comprehension of literary texts, an elementary school teacher selects a variety of passages from a range of cultures, including those that reflect the diverse cultural experiences of the students. The teacher also considers students' familiarity with cultural content when evaluating students' responses to texts. The teacher's actions best demonstrate the importance of taking which of the following factors into consideration when selecting texts for assessments?",
+        choices: [
+            "Literary aspects of a culture are inherently difficult for young students to understand without scaffolding.",
+            "Comprehension of literary text relies both on well-developed code-based skills as well as culturally broad oral vocabulary knowledge.",
+            "A reader's cultural background knowledge can be an important factor affecting their comprehension of a literary text.",
+            "Literary themes are frequently presented as universals of human experience that are well understood by readers from all cultures."
+        ],
+        correctAnswer: "A reader's cultural background knowledge can be an important factor affecting their comprehension of a literary text.",
+        explanation: "Cultural background influences comprehension, making culturally relevant texts critical for accurate assessment."
+    },
+    {
+        question: "Which of the following statements identifies a characteristic of criterion-referenced tests that, in general, makes them unsuitable for use as a formative assessment of foundational reading skills?",
+        choices: [
+            "While criterion-referenced assessments can measure students' mastery of target skills, they provide little information about the extent of students' skill development toward mastery.",
+            "While criterion-referenced assessments can rank students' overall performance in relation to other students at the same grade level, they do not provide objective data about students' mastery of specific skills.",
+            "While the results of criterion-referenced assessments can provide insight into an individual student's reading processes, they do not provide a measure that can be compared easily over time.",
+            "While criterion-referenced assessments can measure a student's progress toward achieving district curricular goals, they provide no information about the student's standing in comparison to national norms."
+        ],
+        correctAnswer: "While criterion-referenced assessments can measure students' mastery of target skills, they provide little information about the extent of students' skill development toward mastery.",
+        explanation: "Criterion-referenced tests focus on mastery of skills but don't show a student's progression toward that mastery, which limits formative uses."
+    },
+    {
+        question: "A second-grade student demonstrates grade-level oral reading fluency but is reluctant to participate in post-reading discussions and frequently exhibits comprehension difficulty when answering questions about assigned literary texts. The teacher would like to better understand the student's process of constructing meaning from text. Which of the following assessment procedures administered individually would be most effective for the teacher to use?",
+        choices: [
+            "Having the student read aloud a short narrative text and then retell the story in the student's own words",
+            "Having the student reread silently a familiar text and then asking the student a range of questions about the author's craft and the text's structure",
+            "Having the student write a text-to-self response about a very familiar text of the student's own choosing",
+            "Having the student read aloud graded lists of regularly and irregularly spelled words until the student begins to make decoding errors at a particular level"
+        ],
+        correctAnswer: "Having the student read aloud a short narrative text and then retell the story in the student's own words",
+        explanation: "A retelling exercise helps teachers assess the student's comprehension and ability to construct meaning from a text."
+    },
+    {
+        question: "How could a teacher best determine if a particular text is written at an appropriate level for a student to read independently (i.e., with little or no teacher support)?",
+        choices: [
+            "By having the student read aloud a section of the text and answer questions about it, and then determining if the student's accuracy is at least 90 percent and comprehension is at least 75 percent",
+            "By reading aloud a section of the text to the student and asking the student a series of comprehension questions about the passage, and then determining if the student's comprehension is at least 95 percent",
+            "By having the student read aloud a section of the text and answer questions about it, and then determining if the student's accuracy is at least 95 percent and comprehension is at least 90 percent",
+            "By reading aloud a section of the text to the student and asking the student a series of comprehension questions about the passage, and then determining if the student's comprehension is 100 percent"
+        ],
+        correctAnswer: "By having the student read aloud a section of the text and answer questions about it, and then determining if the student's accuracy is at least 95 percent and comprehension is at least 90 percent",
+        explanation: "This standard ensures students can read texts with high accuracy and comprehension independently."
+    }
 ];
+
 
 
 window.questions = questions;
