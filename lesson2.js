@@ -1,147 +1,5 @@
 let questions = [
-    {
-        question: "According to findings in the Report of the National Literacy Panel on Language-Minority Children and Youth, which of the following curricular adjustments would most effectively support the literacy development of English learners with respect to text comprehension?",
-        choices: [
-            "Integrating comprehensive oral language instruction with literacy instruction",
-            "Changing the primary focus of early literacy instruction to comprehension skills",
-            "Increasing the level of intensity in beginning decoding and spelling instruction",
-            "Using multimodal techniques to teach emergent literacy skills"
-        ],
-        correctAnswer: "Integrating comprehensive oral language instruction with literacy instruction",
-        explanation: "Integrating oral language instruction helps bridge literacy skills and comprehension, aligning with findings from the report on language-minority children."
-    },
-    {
-        question: "Which of the following actions by elementary school teachers in the early grades would best demonstrate understanding that decoding and encoding are reciprocal skills that develop synchronously during the early stages of reading development?",
-        choices: [
-            "Creating regular opportunities for students to apply new syllable patterns in their daily writing that have been explicitly taught during phonics instruction",
-            "Having students regularly use think-aloud when they encounter an unfamiliar word in print to reinforce their use of metacognition to improve their reading",
-            "Questioning students frequently about their oral reading to determine if they understand the meaning of vocabulary words that they can read aloud accurately",
-            "Engaging students in frequent opportunities to discuss personal or shared experiences while the teacher transcribes and displays the stories in writing"
-        ],
-        correctAnswer: "Creating regular opportunities for students to apply new syllable patterns in their daily writing that have been explicitly taught during phonics instruction",
-        explanation: "Providing opportunities for writing reinforces the reciprocal relationship between decoding (reading) and encoding (spelling)."
-    },
-    {
-        question: "A teacher would like to help students identify their literacy skills and strengths as part of an assets-based approach to literacy instruction. Which of the following teacher actions is consistent with this type of approach?",
-        choices: [
-            "Encouraging students to select a wide range of informational and literary texts for independent reading during designated, in-school silent reading periods and holding them accountable for comprehension",
-            "Providing students with explicit feedback about what they already know and are able to do well and helping them use this information to establish realistic yet challenging learning goals",
-            "Using direct observations of students' learning challenges as well as the results of multiple literacy assessments to make grouping decisions and keeping groups together until students demonstrate progress",
-            "Prioritizing for intervention students' areas of greatest needs in literacy and collaborating with students' families as well as consulting with specialists, as needed, to support them"
-        ],
-        correctAnswer: "Providing students with explicit feedback about what they already know and are able to do well and helping them use this information to establish realistic yet challenging learning goals",
-        explanation: "An assets-based approach focuses on leveraging student strengths and guiding them toward achievable yet challenging goals."
-    },
-    {
-        question: "A school district in Texas has adopted the Multi-Tiered Systems of Support (MTSS) model of instruction in their K–3 literacy program, which includes a core reading program (Tier 1), supplemental instruction (Tier 2), and intensive instruction (Tier 3). Instructional grouping in Tier 2 is restricted to five or fewer students. This limitation enhances the effectiveness of literacy instruction for the students primarily by:",
-        choices: [
-            "Allowing students to work in a setting that supports their preferred learning style.",
-            "Providing students with a learning environment that promotes their self-concept as successful readers.",
-            "Allowing students to receive instruction at a slower pace, focused on foundational literacy skills.",
-            "Providing students with increased opportunities to practice developing skills with teacher feedback."
-        ],
-        correctAnswer: "Providing students with increased opportunities to practice developing skills with teacher feedback.",
-        explanation: "Small groups ensure students receive more individualized attention and feedback, promoting skill development effectively."
-    },
-    {
-        question: "A second-grade student has been identified with dysgraphia but does not have difficulty with decoding or encoding. Which of the following approaches to instruction would be most effective in promoting the student's development with respect to the identified area of need?",
-        choices: [
-            "Arranging for the student to have more time for written tasks, such as formal assignments and tests, and assigning a note-taking buddy to assist the student in filling in gaps in the student's work",
-            "Arranging for the student to use speech-to-text software for all writing tasks to eliminate the need for the student to learn writing and to allow the student to focus exclusively on conveying ideas",
-            "Providing the student with explicit instruction in letter formation and frequent, short, guided-practice sessions to build the student's handwriting fluency and automaticity in letter memory and formation",
-            "Providing the student with explicit instruction and guided practice in translating phonemes to their corresponding graphemes in order to strengthen the student's orthographic representation"
-        ],
-        correctAnswer: "Providing the student with explicit instruction in letter formation and frequent, short, guided-practice sessions to build the student's handwriting fluency and automaticity in letter memory and formation",
-        explanation: "Focused and frequent practice helps address the fine-motor challenges associated with dysgraphia, improving handwriting fluency."
-    },
-    {
-        question: "In which line in the table below is the underlined portion of the example word accurately matched to the phonics term that is used to describe that phonics element?",
-        choices: [
-            "Line 1",
-            "Line 2",
-            "Line 3",
-            "Line 4"
-        ],
-        correctAnswer: "Line 2",
-        explanation: "Line 2 correctly identifies the phonics element in alignment with its definition."
-    },
-    {
-        question: "In the context of a research project, in which of the following ways can the teacher best foster students' feelings of self-efficacy as readers?",
-        choices: [
-            "Reminding students to reflect on the purpose of their reading task",
-            "Providing students with a rubric with which they can self-evaluate their text analysis",
-            "Monitoring the groups closely and redirecting students' comments when they are off topic",
-            "Offering frequent praise for students' reading skills and strategies"
-        ],
-        correctAnswer: "Offering frequent praise for students' reading skills and strategies",
-        explanation: "Frequent praise reinforces positive reading behaviors, boosting students' confidence and self-efficacy."
-    },
-    {
-        question: "Several research groups include students with a diverse range of reading skills. The teacher wants to differentiate instruction for students in a way that will also strengthen their capacity for reading more complex text. Which of the following approaches best aligns with research-based best practices to accomplish this purpose?",
-        choices: [
-            "Establishing varied responsibilities and expectations for students in the research groups according to their demonstrated reading strengths and needs",
-            "Providing audiobooks for students with below-grade-level reading skills and allowing time for them to listen to the text before the research groups meet",
-            "Facilitating peer-assisted learning opportunities in which students with more advanced reading skills read aloud the texts to students who are less proficient",
-            "Providing a set of texts representing a range of text-complexity levels and interactive formats, and allowing students to work collaboratively to read the texts"
-        ],
-        correctAnswer: "Providing a set of texts representing a range of text-complexity levels and interactive formats, and allowing students to work collaboratively to read the texts",
-        explanation: "Using texts with varied complexity supports differentiation while encouraging collaboration and exposure to challenging content."
-    },
-    {
-        question: "A kindergarten teacher regularly has students write and draw in their journals in response to an open-ended prompt. During these writing sessions, the teacher circulates among students, asks them to read aloud what they have written, and documents their performance with anecdotal notes in a teacher record. This type of informal assessment strategy would be most appropriate to use for which of the following instructional purposes?",
-        choices: [
-            "Diagnosing students' difficulties in literacy development to determine appropriate intensive interventions",
-            "Observing individual students' development in various dimensions of literacy over time",
-            "Determining the appropriate starting point for whole-group instruction in literacy development",
-            "Screening students to determine if additional literacy assessments are needed"
-        ],
-        correctAnswer: "Observing individual students' development in various dimensions of literacy over time",
-        explanation: "Informal assessments like journal reviews allow teachers to track ongoing literacy progress effectively."
-    },
-    {
-        question: "Which of the following writing samples provides evidence that the student is beginning to develop understanding of the alphabetic principle?",
-        choices: [
-            "Sample A",
-            "Sample B",
-            "Sample C",
-            "Sample D"
-        ],
-        correctAnswer: "Sample B",
-        explanation: "Sample B shows early phoneme-grapheme correspondence, demonstrating the initial stages of alphabetic principle understanding."
-    },
-    {
-        question: "When planning assessments to measure students' comprehension of literary texts, an elementary school teacher selects a variety of passages from a range of cultures, including those that reflect the diverse cultural experiences of the students. The teacher also considers students' familiarity with cultural content when evaluating students' responses to texts. The teacher's actions best demonstrate the importance of taking which of the following factors into consideration when selecting texts for assessments?",
-        choices: [
-            "Literary aspects of a culture are inherently difficult for young students to understand without scaffolding.",
-            "Comprehension of literary text relies both on well-developed code-based skills as well as culturally broad oral vocabulary knowledge.",
-            "A reader's cultural background knowledge can be an important factor affecting their comprehension of a literary text.",
-            "Literary themes are frequently presented as universals of human experience that are well understood by readers from all cultures."
-        ],
-        correctAnswer: "A reader's cultural background knowledge can be an important factor affecting their comprehension of a literary text.",
-        explanation: "Cultural background influences comprehension, making culturally relevant texts critical for accurate assessment."
-    },
-    {
-        question: "Which of the following statements identifies a characteristic of criterion-referenced tests that, in general, makes them unsuitable for use as a formative assessment of foundational reading skills?",
-        choices: [
-            "While criterion-referenced assessments can measure students' mastery of target skills, they provide little information about the extent of students' skill development toward mastery.",
-            "While criterion-referenced assessments can rank students' overall performance in relation to other students at the same grade level, they do not provide objective data about students' mastery of specific skills.",
-            "While the results of criterion-referenced assessments can provide insight into an individual student's reading processes, they do not provide a measure that can be compared easily over time.",
-            "While criterion-referenced assessments can measure a student's progress toward achieving district curricular goals, they provide no information about the student's standing in comparison to national norms."
-        ],
-        correctAnswer: "While criterion-referenced assessments can measure students' mastery of target skills, they provide little information about the extent of students' skill development toward mastery.",
-        explanation: "Criterion-referenced tests focus on mastery of skills but don't show a student's progression toward that mastery, which limits formative uses."
-    },
-    {
-        question: "A second-grade student demonstrates grade-level oral reading fluency but is reluctant to participate in post-reading discussions and frequently exhibits comprehension difficulty when answering questions about assigned literary texts. The teacher would like to better understand the student's process of constructing meaning from text. Which of the following assessment procedures administered individually would be most effective for the teacher to use?",
-        choices: [
-            "Having the student read aloud a short narrative text and then retell the story in the student's own words",
-            "Having the student reread silently a familiar text and then asking the student a range of questions about the author's craft and the text's structure",
-            "Having the student write a text-to-self response about a very familiar text of the student's own choosing",
-            "Having the student read aloud graded lists of regularly and irregularly spelled words until the student begins to make decoding errors at a particular level"
-        ],
-        correctAnswer: "Having the student read aloud a short narrative text and then retell the story in the student's own words",
-        explanation: "A retelling exercise helps teachers assess the student's comprehension and ability to construct meaning from a text."
-    },
+
     {
         question: "A third-grade teacher plans to lead a whole-class discussion about a topical issue. Before the discussion, the teacher uses direct instruction to introduce a series of conversational strategies that students can practice during the discussion. The teacher also provides students with personal conversational-strategy bookmarks, shown below, that they can refer to during any class discussion. The teacher's strategy in this lesson promotes development of the students' academic-language skills primarily by:",
         choices: [
@@ -151,7 +9,7 @@ let questions = [
             "Providing students with a wide range of tactics for initiating conversations with peers."
         ],
         correctAnswer: "Scaffolding students' participation in academic conversations with sentence frames appropriate to the setting.",
-        explanation: "Sentence frames offer structured support, promoting confidence and competence in academic discussions."
+        explanation: "Providing scaffolds like sentence frames helps students engage effectively in academic discussions and enhances their language skills."
     },
     {
         question: "When reading storybooks aloud to the class, a first-grade teacher pauses regularly to think aloud about the text and illustrations and to speculate about information suggested by, but not explicitly included in, the narrative. For example, the teacher speculates about a character's feelings at a key moment in the story, given what the reader learned about the character in an earlier part of the book. According to research, participating in this type of listening activity contributes to students' ongoing development in reading comprehension primarily in which of the following ways?",
@@ -162,7 +20,7 @@ let questions = [
             "Facilitating students' understanding of narrative text structure and development of inference skills for narrative text."
         ],
         correctAnswer: "Facilitating students' understanding of narrative text structure and development of inference skills for narrative text.",
-        explanation: "Thinking aloud supports narrative comprehension and inference-making, crucial skills for young readers."
+        explanation: "Thinking aloud while reading aloud helps students develop inference skills and understand narrative structure."
     },
     {
         question: "A kindergarten teacher conducts parent/guardian curriculum sessions with translators available for parents/guardians whose primary language is not English. In one session, the teacher discusses evidence-based home practices that support students' literacy development. Which of the following recommendations would be most appropriate to communicate to families whose home language is not English?",
@@ -173,7 +31,7 @@ let questions = [
             "Reading books at home previously read aloud by a teacher will improve the academic vocabulary of a young child learning English and best prepare the child for school discussions."
         ],
         correctAnswer: "Sharing with a young child learning English various stories, songs, and word games in the home language contributes to the child's literacy development in English.",
-        explanation: "Engaging in literacy activities in the home language strengthens cognitive and linguistic skills, aiding English literacy development."
+        explanation: "Activities in the home language build foundational literacy skills that transfer to English."
     },
     {
         question: "A teacher observes that several students in the class make the same grammatical errors when speaking or writing and that the errors are typical of the students' language variety. The teacher wants to differentiate oral language instruction for this group of students to extend their English language skills and improve their ability to comprehend and produce academic oral language and writing. Which of the following approaches would be most appropriate for the teacher to use with these students?",
@@ -184,8 +42,163 @@ let questions = [
             "Providing the students with explicit error correction whenever the students use a language form in their oral language or writing that is not aligned with standard academic English."
         ],
         correctAnswer: "Helping the students understand the distinction between everyday language and the language used in school and texts, and systematically teaching them unfamiliar grammatical constructions.",
-        explanation: "Explicit instruction helps bridge everyday language with academic language, promoting comprehension and communication."
-    }
+        explanation: "Explicit teaching of academic English grammar helps bridge the gap between everyday and academic language."
+    },
+    {
+        question: "For the onset/rime activity, which of the following sets of words from the story would allow the teacher the best opportunity to stretch out the words' onset to support the children's ability to perceive it?",
+        choices: [
+            "Gill, bump",
+            "Blame, plant",
+            "Fish, sharp",
+            "Splash, skin"
+        ],
+        correctAnswer: "Gill, bump",
+        explanation: "Words like 'gill' and 'bump' provide clear onsets that can be stretched for phonological awareness."
+    },
+    {
+        question: "A few children in the class are more advanced in their phonological awareness skills. On a recent assessment, they were able to do the onset/rime activity consistently. Which of following activities identified by the teacher would present an appropriate level of challenge to the students?",
+        choices: [
+            "Initial sound deletion",
+            "Repeating and counting words",
+            "Counting syllables in words",
+            "Syllable deletion"
+        ],
+        correctAnswer: "Syllable deletion",
+        explanation: "Syllable deletion is a more advanced phonological awareness skill appropriate for these students."
+    },
+    {
+        question: "One child cannot count the words in a sentence or the syllables in a word. Which of the following strategies is likely to be most effective in scaffolding the child's ability to complete these tasks successfully?",
+        choices: [
+            "Representing the words or sentences to be segmented with picture stimuli",
+            "Shortening the sentences or words so that they only have two to three parts",
+            "Having the student generate original sentences or words for the task",
+            "Placing a block to represent each word or syllable as it is stated"
+        ],
+        correctAnswer: "Placing a block to represent each word or syllable as it is stated",
+        explanation: "Using concrete objects like blocks provides a tactile and visual scaffold for understanding syllables and words."
+    },
+    {
+        question: "A first-grade teacher conducts a phonological awareness activity in which students match sounds in spoken words. In this activity, students name familiar objects or animals shown in a set of picture cards and then match them to picture cards that represent words with the same ending sound (e.g., book and rock; map and cup). Which of the following statements best describes how this type of activity directly supports students' reading development?",
+        choices: [
+            "Understanding the morphological structure of words helps students see patterns and apply them when they read and write.",
+            "Naming pictures and identifying speech sounds expands and deepens students' oral vocabulary knowledge.",
+            "Identifying component phonemes in spoken words prepares students to sound out and spell familiar words in print.",
+            "Learning to recognize letters automatically provides students with a foundation for rapid decoding and fluency."
+        ],
+        correctAnswer: "Identifying component phonemes in spoken words prepares students to sound out and spell familiar words in print.",
+        explanation: "This activity reinforces phoneme identification, a key skill for decoding and spelling."
+    },
+    {
+        question: "A third-grade teacher is working with a small group of struggling readers who have difficulty decoding multisyllabic words. Which of the following instructional strategies would be most effective in reinforcing a key phonological awareness skill that is prerequisite for learning syllabication?",
+        choices: [
+            "Leading the students in chorally repeating a list of multisyllabic words read aloud by the teacher and clapping for each syllable",
+            "Having the students silently review a printed list of multisyllabic words and draw slanted lines after each syllable",
+            "Reviewing with the students rules for dividing words at syllable boundaries (e.g., dividing between double consonants)",
+            "Preparing and having the students complete a cloze exercise in which they must identify and write the missing syllables in words"
+        ],
+        correctAnswer: "Leading the students in chorally repeating a list of multisyllabic words read aloud by the teacher and clapping for each syllable",
+        explanation: "This approach emphasizes hearing and segmenting syllables, a prerequisite for syllabication."
+    },
+    {
+        question: "A kindergarten teacher plans a series of lessons focused on segmenting phonemes in spoken words. According to evidence-based best practices, which of the following activities should come last in the teacher's instructional sequence?",
+        choices: [
+            "Having students distinguish and isolate the initial phoneme in words presented orally by the teacher that begin with a stop consonant (e.g., tan, puff)",
+            "Having students attend to and identify the initial phoneme in words that begin with a continuous consonant sound (e.g., sit, mop) as the teacher says the word slowly",
+            "Having students identify and sequence the individual phonemes in words that begin or end with consonant blends (e.g., clap, bump, gift) as the teacher slowly stretches out the word orally",
+            "Having students listen to and count the individual phonemes in words that begin or end with a consonant digraph (e.g., thought, wish, back) as the teacher holds up a finger while saying each phoneme"
+        ],
+        correctAnswer: "Having students identify and sequence the individual phonemes in words that begin or end with consonant blends (e.g., clap, bump, gift) as the teacher slowly stretches out the word orally",
+        explanation: "Sequencing individual phonemes in words with blends is a more advanced skill that requires prior mastery of simpler phoneme tasks."
+    },
+    {
+        question: "A second-grade teacher analyzes the results of benchmark assessments for an English learner. The data indicate that the student is experiencing difficulty pronouncing and distinguishing several English sounds. To deliver effective differentiated instruction that supports the student's development of phonemic awareness in English, the teacher should take which of the following steps first?",
+        choices: [
+            "Developing an ABC book in which the English learner writes uppercase and lowercase forms of each letter and attaches pictures that begin with each letter's most common sound",
+            "Creating a cloze story for the English learner that focuses on words containing problematic letters and sounds, as indicated on the student's assessment",
+            "Meeting with the English learner's parents/guardians to discuss the assessment results and to recommend home activities targeted to close the gap in phonemic awareness",
+            "Comparing the English learner's home language to English to determine if the target English phonemes are present in the student's home language"
+        ],
+        correctAnswer: "Comparing the English learner's home language to English to determine if the target English phonemes are present in the student's home language",
+        explanation: "Understanding the differences between the home language and English helps tailor phonemic awareness instruction to the student's needs."
+    },
+    {
+        question: "Which of the following strategies would best support students in developing their ability to determine the main idea of an informational text?",
+        choices: [
+            "Asking students to list all the key details they recall after reading a passage.",
+            "Having students create a summary of the text using their own words.",
+            "Instructing students to locate the first sentence in each paragraph.",
+            "Having students underline vocabulary words they don’t know."
+        ],
+        correctAnswer: "Having students create a summary of the text using their own words.",
+        explanation: "Summarizing helps students synthesize information and focus on the main idea of the text."
+    },
+    {
+        question: "A second-grade teacher wants to promote students' fluency development during small-group reading. Which instructional strategy would be most effective?",
+        choices: [
+            "Having students read silently and summarize the passage orally.",
+            "Engaging students in repeated readings of the same text.",
+            "Encouraging students to listen to an audiobook of the passage before reading.",
+            "Pairing students to take turns reading different texts to each other."
+        ],
+        correctAnswer: "Engaging students in repeated readings of the same text.",
+        explanation: "Repeated readings improve fluency by increasing familiarity with the text and enhancing accuracy, speed, and expression."
+    },
+    {
+        question: "A kindergarten teacher uses a rhyming activity to promote phonological awareness. Students are asked to identify pairs of words that rhyme from a list. Which phonological awareness skill is being reinforced?",
+        choices: [
+            "Phoneme segmentation",
+            "Phoneme isolation",
+            "Rhyme recognition",
+            "Syllable deletion"
+        ],
+        correctAnswer: "Rhyme recognition",
+        explanation: "Rhyme recognition helps students identify similar ending sounds in words, a fundamental phonological awareness skill."
+    },
+    {
+        question: "A third-grade teacher plans an activity where students write a story using vocabulary words from the week's reading. What key skill is this activity promoting?",
+        choices: [
+            "Fluency development",
+            "Vocabulary application",
+            "Reading comprehension",
+            "Phonemic awareness"
+        ],
+        correctAnswer: "Vocabulary application",
+        explanation: "Writing stories with new vocabulary reinforces understanding and application of word meanings in context."
+    },
+    {
+        question: "Which instructional method best supports English learners in building academic vocabulary?",
+        choices: [
+            "Encouraging students to use context clues during independent reading.",
+            "Providing explicit instruction and repeated exposure to new vocabulary.",
+            "Assigning students to look up definitions of words in the dictionary.",
+            "Having students practice spelling words from the week's vocabulary list."
+        ],
+        correctAnswer: "Providing explicit instruction and repeated exposure to new vocabulary.",
+        explanation: "Explicit instruction and repeated exposure help English learners internalize and use academic vocabulary effectively."
+    },
+    {
+        question: "A teacher wants to assess a student’s phonics knowledge. Which assessment activity would be most appropriate?",
+        choices: [
+            "Asking the student to identify rhyming words in a poem.",
+            "Having the student blend sounds to read a list of decodable words.",
+            "Asking the student to read a passage aloud and answer comprehension questions.",
+            "Providing the student with a wordless picture book to narrate."
+        ],
+        correctAnswer: "Having the student blend sounds to read a list of decodable words.",
+        explanation: "Blending sounds to decode words directly assesses the student's phonics knowledge."
+    },
+    {
+        question: "A first-grade teacher introduces students to compound words using picture cards. What is the primary literacy skill being developed?",
+        choices: [
+            "Phonemic awareness",
+            "Phonics",
+            "Morphological awareness",
+            "Fluency"
+        ],
+        correctAnswer: "Morphological awareness",
+        explanation: "Understanding compound words develops morphological awareness, which is the recognition of word parts and their meanings."
+    },
 ];
+
 
 window.questions = questions;
