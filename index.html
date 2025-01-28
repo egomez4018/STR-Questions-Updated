@@ -11,19 +11,26 @@ body {
     color: #ffffff; /* White text */
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure full screen coverage */
     overflow: hidden;
 }
 
 .home-container, .container {
     background-color: #1e1e1e; /* Darker background for containers */
-    color: #ffffff; /* White text for containers */
+    color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Softer shadow */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
     animation: fadeIn 1s ease;
     text-align: center;
-    max-width: 800px; /* Centered content with maximum width */
-    margin: 40px auto; /* Added vertical and horizontal spacing */
-    padding: 40px; /* Added padding inside the container */
+    max-width: 90%; /* Adjust container width for smaller screens */
+    width: 800px; /* Default width for larger screens */
+    margin: 20px auto; /* Vertical spacing */
+    padding: 20px; /* Internal spacing */
+    box-sizing: border-box; /* Include padding in width/height calculations */
 }
 
 @keyframes fadeIn {
@@ -38,19 +45,21 @@ body {
 }
 
 .home-title {
-    font-size: 36px;
-    margin-bottom: 30px; /* Added spacing below the title */
+    font-size: 28px;
+    margin-bottom: 20px;
     color: #ffffff;
 }
 
 select {
-    margin: 20px 0; /* Added spacing around the dropdown */
+    margin: 20px 0;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
     border: 1px solid #4CAF50;
     background-color: #1e1e1e;
     color: #ffffff;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 400px;
 }
 
 .home-button, .button {
@@ -61,7 +70,9 @@ select {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px; /* Added space above the button */
+    margin-top: 20px;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 200px;
 }
 
 .home-button:hover, .button:hover {
@@ -70,59 +81,65 @@ select {
 
 .question {
     text-align: center;
-    margin-top: 30px; /* Added spacing above the question */
-    margin-bottom: 20px; /* Added spacing below the question */
-    font-size: 28px;
-    color: #ffffff; /* White question text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    word-wrap: break-word; /* Break long questions */
 }
 
 .choices {
-    margin-top: 30px; /* Added spacing above the choices */
+    margin-top: 30px;
 }
 
 label {
     display: block;
-    margin-bottom: 15px; /* Added spacing between labels */
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
     color: #ffffff;
     transition: transform 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-    opacity: 0;
-}
-
-input[type="radio"] {
-    display: none;
-}
-
-input[type="radio"] + label {
-    transform: translateX(20px);
-}
-
-input[type="radio"]:checked + label {
-    transform: translateX(0);
-    opacity: 1;
+    word-wrap: break-word; /* Prevent overflow for long options */
 }
 
 .feedback {
     text-align: center;
-    margin-top: 30px; /* Added spacing above feedback */
+    margin-top: 20px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .correct {
-    color: #5cb85c; /* Green for correct feedback */
+    color: #5cb85c;
 }
 
 .incorrect {
-    color: #d9534f; /* Red for incorrect feedback */
+    color: #d9534f;
 }
 
 .buttons {
     text-align: center;
-    margin-top: 30px; /* Added spacing above buttons */
+    margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 24px; /* Smaller title size on smaller screens */
+    }
+    .question {
+        font-size: 20px; /* Reduce question font size for smaller devices */
+    }
+    label {
+        font-size: 16px; /* Smaller labels */
+    }
+    .container {
+        padding: 15px; /* Reduce padding for smaller devices */
+    }
+    .home-button, .button {
+        padding: 10px 20px; /* Adjust button size */
+        max-width: 100%; /* Make buttons span the full width */
+    }
+}
+
 
 </style>
 <script src="main.js"></script>
