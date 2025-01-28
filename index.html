@@ -5,105 +5,125 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STR Review</title>
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #121212; /* Dark background */
-        color: #ffffff; /* White text */
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-    .home-container, .container {
-        background-color: #1e1e1e; /* Darker background for containers */
-        color: #ffffff; /* White text for containers */
-        border-radius: 20px;
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Softer shadow */
-        animation: fadeIn 1s ease;
-        text-align: center;
-    }
+.home-container, .container {
+    background-color: #1e1e1e; /* Darker background for containers */
+    color: #ffffff; /* White text for containers */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Softer shadow */
+    animation: fadeIn 1s ease;
+    text-align: center;
+    max-width: 800px; /* Centered content with maximum width */
+    margin: 40px auto; /* Added vertical and horizontal spacing */
+    padding: 40px; /* Added padding inside the container */
+}
 
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(-20px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .home-title {
-        font-size: 36px;
-        margin-bottom: 20px;
-        color: #ffffff; /* White title text */
-    }
-
-    .home-button, .button {
-        padding: 12px 24px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    .home-button:hover, .button:hover {
-        background-color: #45a049;
-    }
-
-    .question {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 28px;
-        color: #ffffff; /* White question text */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for better readability */
-    }
-
-    label {
-        display: block;
-        margin-bottom: 10px;
-        font-size: 20px;
-        color: #ffffff; /* White text for labels */
-        transition: transform 0.3s ease, opacity 0.3s ease;
-        cursor: pointer;
+@keyframes fadeIn {
+    from {
         opacity: 0;
+        transform: translateY(-20px);
     }
-
-    input[type="radio"] {
-        display: none;
-    }
-
-    input[type="radio"] + label {
-        transform: translateX(20px);
-    }
-
-    input[type="radio"]:checked + label {
-        transform: translateX(0);
+    to {
         opacity: 1;
+        transform: translateY(0);
     }
+}
 
-    .feedback {
-        text-align: center;
-        margin-top: 20px;
-        font-weight: bold;
-        font-size: 18px;
-    }
+.home-title {
+    font-size: 36px;
+    margin-bottom: 30px; /* Added spacing below the title */
+    color: #ffffff;
+}
 
-    .correct {
-        color: #5cb85c; /* Green for correct feedback */
-    }
+select {
+    margin: 20px 0; /* Added spacing around the dropdown */
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #4CAF50;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
 
-    .incorrect {
-        color: #d9534f; /* Red for incorrect feedback */
-    }
+.home-button, .button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Added space above the button */
+}
 
-    .buttons {
-        text-align: center;
-        margin-top: 20px;
-    }
+.home-button:hover, .button:hover {
+    background-color: #45a049;
+}
+
+.question {
+    text-align: center;
+    margin-top: 30px; /* Added spacing above the question */
+    margin-bottom: 20px; /* Added spacing below the question */
+    font-size: 28px;
+    color: #ffffff; /* White question text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.choices {
+    margin-top: 30px; /* Added spacing above the choices */
+}
+
+label {
+    display: block;
+    margin-bottom: 15px; /* Added spacing between labels */
+    font-size: 20px;
+    color: #ffffff;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    opacity: 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    transform: translateX(20px);
+}
+
+input[type="radio"]:checked + label {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.feedback {
+    text-align: center;
+    margin-top: 30px; /* Added spacing above feedback */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.correct {
+    color: #5cb85c; /* Green for correct feedback */
+}
+
+.incorrect {
+    color: #d9534f; /* Red for incorrect feedback */
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px; /* Added spacing above buttons */
+}
+
 </style>
 <script src="main.js"></script>
 </head>
