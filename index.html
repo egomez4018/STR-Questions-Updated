@@ -5,118 +5,105 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STR Review</title>
 <style>
-    /* Your CSS styles here */
     body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.home-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 1s ease;
-    text-align: center;
-}
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
+        font-family: Arial, sans-serif;
+        background-color: #121212; /* Dark background */
+        color: #ffffff; /* White text */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.home-title {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-.home-button {
-    padding: 12px 24px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.home-button:hover {
-    background-color: #45a049;
-}
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 1s ease;
-    text-align: center;
-    display: none;
-}
-.question {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 28px;
-    color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
-.choices {
-    margin-top: 20px;
-}
-label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 20px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    cursor: pointer;
-    opacity: 0;
-}
-input[type="radio"] {
-    display: none;
-}
-input[type="radio"] + label {
-    transform: translateX(20px);
-}
-input[type="radio"]:checked + label {
-    transform: translateX(0);
-    opacity: 1;
-}
-.feedback {
-    text-align: center;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 18px;
-}
-.correct {
-    color: #5cb85c;
-}
-.incorrect {
-    color: #d9534f;
-}
-.buttons {
-    text-align: center;
-    margin-top: 20px;
-}
-.button {
-    padding: 12px 24px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.button:hover {
-    background-color: #45a049;
-}
 
+    .home-container, .container {
+        background-color: #1e1e1e; /* Darker background for containers */
+        color: #ffffff; /* White text for containers */
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Softer shadow */
+        animation: fadeIn 1s ease;
+        text-align: center;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .home-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #ffffff; /* White title text */
+    }
+
+    .home-button, .button {
+        padding: 12px 24px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .home-button:hover, .button:hover {
+        background-color: #45a049;
+    }
+
+    .question {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 28px;
+        color: #ffffff; /* White question text */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for better readability */
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #ffffff; /* White text for labels */
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    input[type="radio"] + label {
+        transform: translateX(20px);
+    }
+
+    input[type="radio"]:checked + label {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .feedback {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .correct {
+        color: #5cb85c; /* Green for correct feedback */
+    }
+
+    .incorrect {
+        color: #d9534f; /* Red for incorrect feedback */
+    }
+
+    .buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
 </style>
 <script src="main.js"></script>
 </head>
